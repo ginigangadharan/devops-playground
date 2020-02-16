@@ -11,8 +11,6 @@ featured: false
 hidden: false
 ---
 
-# 1. Awesome DevSecSysOps Tools on Internet
-
 This is a page where I keep all those list of tools on internet, which we use for our day-to-day tasks.
 
 <!-- TOC depthfrom:2 orderedlist:false -->
