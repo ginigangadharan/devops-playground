@@ -1,5 +1,16 @@
-# 1. Ansible Best Practices
-==============
+---
+layout: postnew
+title: Ansible Best Practices
+#author: gini
+categories: [ ansible ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /ansible-best-practices
+featured: false
+hidden: false
+---
+
 Note : This document is based on original document - [Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html) - and I am keeping a modified copy with more details for my own references.
 
 You can find some example playbooks illustrating these best practices in our `ansible-examples repository <https://github.com/ansible/ansible-examples>`_.  (NOTE: These may not use all of the features in the latest release, but are still an excellent reference!).

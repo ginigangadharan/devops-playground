@@ -1,5 +1,15 @@
-# 1. Ansible Use Case Gallery
-
+---
+layout: postnew
+title: Ansible Use Case Gallery
+#author: gini
+categories: [ ansible ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /ansible-use-case-gallery
+featured: false
+hidden: false
+---
 <!-- TOC depthfrom:2 orderedlist:true -->
 
 - [1.1. Immutable Infrastructure](#11-immutable-infrastructure)
