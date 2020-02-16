@@ -1,23 +1,22 @@
 ---
 layout: post
-title: How To Add Custom Modules In Ansible
-author: gini
-categories: [ ansible ]
-image: "assets/images/2020/how-to-add-custom-modules-in-ansible.jpg"
-tags: [ansible, automation, module]
+title: DevOps Notes & Guides
+#author: gini
+categories: [ ]
+image: "assets/images/build-your-own-git-server-using-gogs.png"
+tags: [ ]
 #show-avatar: false
 featured: true
 hidden: true
 ---
 
-**See [Full Article](https://www.techbeatly.com/2020/02/how-to-add-custom-modules-in-ansible.html)**
+# DevOps Notes
 
-Okay, we all know Ansible installation is coming with default modules and you don’t need to download or configure any additional modules for normal cases, Yes batteries already included.
+Technical notes and quick docs for BAU Activities.
 
-But, what if you need to achieve something with Ansible but a suitable module is not available ? No worries, you can write your own modules for local use; that’s the beauty of Ansible.
+- [DevOps Essentials](Notes-DevOps-Essentials)
+- [OpenShift-ServiceMesh-with-Istio](OpenShift-ServiceMesh-with-Istio)
+- [ansible-for-vmware](ansible-for-vmware)
+- [CKA-certified-kubernetes-administrator](cka-certified-kubernetes-administrator)
+- [OpenShift All-in-One Cluster](OpenShift-quick-cluster)
 
-Before you start, just make sure you have searched the module library and confirmed nothing suitable for your special use.
-
-**See [Full Article](https://www.techbeatly.com/2020/02/how-to-add-custom-modules-in-ansible.html)**
-
-Also read : [How to add Container Images to Google Container Registry (GCR)](https://www.techbeatly.com/2019/10/adding-container-images-to-google-container-registry-gcr.html/)
