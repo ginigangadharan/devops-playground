@@ -12,6 +12,8 @@ baseurl: "/devops-playground"
 # url: "https://www.iamgini.com/site2/"
 # baseurl: "/site2"
 
+my_base_site: "https://www.iamgini.com"
+
 google_analytics: 'UA-158250524-1'
 #disqus: 'demowebsite'
 #disqus: 'iamginicom'
