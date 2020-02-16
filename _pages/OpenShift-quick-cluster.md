@@ -1,5 +1,15 @@
-# 1. OpenShift Installation Methods - Examples
-
+---
+layout: postnew
+title: OpenShift Installation Methods - Examples
+#author: gini
+categories: [ devops ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /OpenShift-quick-cluster
+featured: false
+hidden: false
+---
 <!-- TOC orderedlist:true -->
 
 - [1. OpenShift Installation Methods - Examples](#1-openshift-installation-methods---examples)

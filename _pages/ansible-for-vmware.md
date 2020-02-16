@@ -1,9 +1,17 @@
 ---
+layout: postnew
 title: Ansible for VMware
-#bigimg: /img/ansible-banner-tower.PNG
+#author: gini
+categories: [ cloud ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /ansible-for-vmware
+featured: false
+hidden: false
 ---
-# Ansible for VMware
-Ref: https://docs.ansible.com/ansible/latest/scenario_guides/guide_vmware.html
+
+Ref: [VMware Guide for Ansible](https://docs.ansible.com/ansible/latest/scenario_guides/guide_vmware.html)
 
 ## Requirements
 Ansible VMware modules are written on top of pyVmomi which is the Python SDK for the VMware vSphere API that allows user to manage ESX, ESXi, and vCenter infrastructure. 

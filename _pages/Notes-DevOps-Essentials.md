@@ -1,4 +1,15 @@
-# DevOps Essentials
+---
+layout: postnew
+title: DevOps Essentials
+#author: gini
+categories: [ devops ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /Notes-DevOps-Essentials
+featured: false
+hidden: false
+---
 
 ## What is DevOps
 - Is a culture of collabaration with Developers and Operations people.
