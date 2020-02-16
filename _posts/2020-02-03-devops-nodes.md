@@ -14,7 +14,7 @@ hidden: true
 
 Technical notes and quick docs for BAU Activities.
 
-- [DevOps Essentials](Notes-DevOps-Essentials)
+- [DevOps Essentials](https://www.iamgini.com/devops-playground/cka-certified-kubernetes-administrator)
 - [OpenShift-ServiceMesh-with-Istio](OpenShift-ServiceMesh-with-Istio)
 - [ansible-for-vmware](ansible-for-vmware)
 - [CKA-certified-kubernetes-administrator](cka-certified-kubernetes-administrator)

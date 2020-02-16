@@ -1,5 +1,15 @@
-# 1. AWX Installation
-
+---
+layout: postnew
+title: Ansible AWX Installation
+#author: gini
+categories: [ cloud ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: [cloud, automation, containers, kubernetes]
+show-avatar: false
+permalink: /awx-installation
+featured: false
+hidden: false
+---
 Ref: 
 - [Ansible AWX Project](https://github.com/ansible/awx)
 - [Introduction to Ansible AWX Project](https://www.doag.org/formes/pubfiles/10846538/2018-DO-Alexander_Hofstetter-Einfuehrung_in_Ansible_AWX_Project_der_quot_freie_quot_Ansible_Tower-Praesentation.pdf)
