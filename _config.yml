@@ -5,8 +5,8 @@ description: "backpacker, foodie, techie"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 
-url: "https://www.iamgini.com/devops-playground"
-baseurl: ""
+#url: "https://www.iamgini.com/devops-playground"
+#baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
 # url: "https://www.iamgini.com/site2/"
