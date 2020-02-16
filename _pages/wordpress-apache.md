@@ -1,4 +1,17 @@
-# Wordpress Site Migration
+---
+layout: postnew
+title: Wordpress with Apache
+#author: gini
+categories: [ wordpress ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /wordpress-apache
+featured: false
+hidden: false
+---
+
+Notes on Wordpress Site Migration
 
 ## Configure Your WebServer
 

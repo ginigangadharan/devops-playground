@@ -1,4 +1,15 @@
-# 1. Installing Kubernetes
+---
+layout: postnew
+title: Kubernetes Installation
+#author: gini
+categories: [ kubernetes ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /kubernetes-installation
+featured: false
+hidden: false
+---
 
 <!-- TOC orderedlist:true -->
 

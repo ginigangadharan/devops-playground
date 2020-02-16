@@ -1,4 +1,15 @@
-# 1. Wordpress with nginx
+---
+layout: postnew
+title: Wordpress with nginx
+#author: gini
+categories: [ wordpress ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: []
+show-avatar: false
+permalink: /wordpress-nginx
+featured: false
+hidden: false
+---
 
 <!-- TOC orderedList:true -->
 
