@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gini</title>
+    <description>backpacker, foodie, techie</description>
+    <link>http://localhost:4008/</link>
+    <atom:link href="http://localhost:4008/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 15 Feb 2020 23:25:16 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Feb 2020 23:25:16 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>How To Add Custom Modules In Ansible</title>
+        <description>&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2020/02/how-to-add-custom-modules-in-ansible.html&quot;&gt;Full Article&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay, we all know Ansible installation is coming with default modules and you don’t need to download or configure any additional modules for normal cases, Yes batteries already included.&lt;/p&gt;
+
+&lt;p&gt;But, what if you need to achieve something with Ansible but a suitable module is not available ? No worries, you can write your own modules for local use; that’s the beauty of Ansible.&lt;/p&gt;
+
+&lt;p&gt;Before you start, just make sure you have searched the module library and confirmed nothing suitable for your special use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2020/02/how-to-add-custom-modules-in-ansible.html&quot;&gt;Full Article&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Also read : &lt;a href=&quot;https://www.techbeatly.com/2019/10/adding-container-images-to-google-container-registry-gcr.html/&quot;&gt;How to add Container Images to Google Container Registry (GCR)&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Feb 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/how-to-add-custom-modules-in-ansible/</link>
+        <guid isPermaLink="true">http://localhost:4008/how-to-add-custom-modules-in-ansible/</guid>
+        
+        <category>ansible</category>
+        
+        <category>automation</category>
+        
+        <category>module</category>
+        
+        
+        <category>ansible</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Create Scheduled Snapshots in Google Cloud Platform</title>
+        <description>&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2020/01/how-to-create-scheduled-snapshots-in-google-cloud-platform.html&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com/2020/01/how-to-create-scheduled-snapshots-in-google-cloud-platform.html&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, your server and data are on cloud, but to avoid the risk of unexpected data loss still you need to follow standard backup mechanisms provided by cloud providers like snapshots or replication. The best way is to take the disk snapshots – Operating System disk as well as data disks. And the best part is Scheduled Snapshots by which you don’t need to worry about regular snapshots. Here see a simple demo for scheduled snapshots in Google Cloud Platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2020/01/how-to-create-scheduled-snapshots-in-google-cloud-platform.html&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com/2020/01/how-to-create-scheduled-snapshots-in-google-cloud-platform.html&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Also read : &lt;a href=&quot;https://www.techbeatly.com/2019/10/adding-container-images-to-google-container-registry-gcr.html/&quot;&gt;How to add Container Images to Google Container Registry (GCR)&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jan 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/how-to-create-scheduled-snapshots-in-google-cloud-platform/</link>
+        <guid isPermaLink="true">http://localhost:4008/how-to-create-scheduled-snapshots-in-google-cloud-platform/</guid>
+        
+        <category>gcp</category>
+        
+        <category>cloud</category>
+        
+        <category>automation</category>
+        
+        <category>backup</category>
+        
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>GNS3 VM – How to Enable KVM Support</title>
+        <description>&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2019/12/gns3-vm-how-to-enable-kvm-support.html/&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com/2019/12/gns3-vm-how-to-enable-kvm-support.html/&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;GNS3 (Graphical Network Simulator) is the most popular – open source, free software – tool for designing and simulating network infrastructure.&lt;/p&gt;
+
+&lt;p&gt;GNS3 has 2 parts&lt;/p&gt;
+
+&lt;p&gt;The GNS3-all-in-one software (GUI)
+The GNS3 virtual machine (VM)
+This post is not meant for explaining GNS3; read &lt;a href=&quot;https://docs.gns3.com/&quot;&gt;GNS3 Documentation&lt;/a&gt; for more details. I just want to share the common mistake, which newbies do when setup GNS3. And the simple configuration to resolve the same.&lt;/p&gt;
+
+&lt;p&gt;While setting up separate GNS3 VM, you need to enable KVM support for the GNS3 VM (even if you are using all in one). Because, most of the appliance need KVM support on GNS3 VM otherwise you won’t be able to import network appliance to GNS3.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2019/12/gns3-vm-how-to-enable-kvm-support.html/&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com/2019/12/gns3-vm-how-to-enable-kvm-support.html/&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Dec 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/gns3-vm-how-to-enable-kvm-support/</link>
+        <guid isPermaLink="true">http://localhost:4008/gns3-vm-how-to-enable-kvm-support/</guid>
+        
+        <category>ansible</category>
+        
+        <category>gns3</category>
+        
+        <category>network automation</category>
+        
+        
+        <category>network</category>
+        
+        <category>automation</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Request Resource Quota Increase in Microsoft Azure</title>
+        <description>&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2019/11/how-to-request-resource-quota-increase-in-microsoft-azure.html&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As we know public cloud is offering unlimited* amount of resources and as an end user of public cloud we don’t need to worry about the backend resources. But, there are few facts to consider when we talk about unlimited.&lt;/p&gt;
+
+&lt;p&gt;What if someone run a script to spin up 1000 VMs !
+What if someone give wrong variable and your automation program created 10000 database instances or disks !
+What is some users purposefully created VMs with high in size ?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2019/11/how-to-request-resource-quota-increase-in-microsoft-azure.html&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Nov 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/how-to-request-resource-quota-increase-in-microsoft-azure/</link>
+        <guid isPermaLink="true">http://localhost:4008/how-to-request-resource-quota-increase-in-microsoft-azure/</guid>
+        
+        <category>azure</category>
+        
+        <category>resource quota</category>
+        
+        <category>quota limit</category>
+        
+        <category>Microsoft azure</category>
+        
+        
+        <category>azure</category>
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>Build Your Own Git Server using Gogs</title>
+        <description>&lt;p&gt;When it comes to VCS (Version Control System), we will have confusion as we have many products in market with almost same capabilities. When we think about enterprise level usage, GitLab, GitHub, Subversion, Bitbucket etc. will come on top of the list and some are with enterprise level support too.&lt;/p&gt;
+
+&lt;p&gt;Installing our own git server with GUI is not a big deal as we have gitlab-ce (Learn more) which is free and another option is self-hosted bitbucket (but not free), or you can go for other premium VCS solutions. Fortunately, we have a simple opensource product called Gogs, which itself described as “A painless self-hosted Git service“. Yes, you can setup your own gitlab/github like git server with Gogs. You have different choices for installation from source, from packages, from binaries or just run it inside a docker container.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See &lt;a href=&quot;https://www.techbeatly.com/2019/10/build-your-own-git-server-using-gogs.html&quot;&gt;Full Article&lt;/a&gt; in &lt;a href=&quot;https://www.techbeatly.com&quot;&gt;techbeatly.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Oct 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/build-your-own-git-server-using-gogs/</link>
+        <guid isPermaLink="true">http://localhost:4008/build-your-own-git-server-using-gogs/</guid>
+        
+        <category>ansible</category>
+        
+        <category>git</category>
+        
+        <category>gogs</category>
+        
+        <category>git server</category>
+        
+        
+        <category>ansible</category>
+        
+        <category>automation</category>
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>Adding Container Images to Google Container Registry (GCR)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/10/adding-container-images-to-google-container-registry-gcr.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Container Registry (GCR) is a service in Google Cloud Platform (GCP) to manage your own docker container repository. This is fully managed service and you can store your custom container images as well as common images from other image repositories. Also, you can implement fine-grained access control on your private container registry using GCR.&lt;/p&gt;
+
+&lt;p&gt;Let’s see how we can add an image to our own GCR and see details in Web GUI.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/10/adding-container-images-to-google-container-registry-gcr.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Oct 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/Adding-Container-Images-to-Google-Container-Registry/</link>
+        <guid isPermaLink="true">http://localhost:4008/Adding-Container-Images-to-Google-Container-Registry/</guid>
+        
+        <category>Ansible Tower</category>
+        
+        <category>Backup</category>
+        
+        <category>Restore</category>
+        
+        <category>Ansible Automation</category>
+        
+        
+        <category>gcr</category>
+        
+        <category>container</category>
+        
+        <category>gcp</category>
+        
+        <category>automation</category>
+        
+      </item>
+    
+      <item>
+        <title>Ansible Tower - How to Backup and Restore</title>
+        <description>&lt;p&gt;Ansible Tower is a wonderful product which help to implement a central hub for IT automation. Ansible Tower is basically a web console and REST API for underlying Ansible Engine but with more features and act as centralized system with logging and RBAC (Role Based Access Control).&lt;/p&gt;
+
+&lt;p&gt;Installing and configuring Ansible Tower (with or without HA) is a straight forward task but what if we need to take backup of the setup ? We have jobs, templates, projects, credentials everything in Tower; how can we take backup of the Ansible Tower and restore it in case of emergency ?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/09/ansible-tower-backup-and-restore-operations.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Sep 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/Ansible-Tower-How-to-Backup-and-Restore/</link>
+        <guid isPermaLink="true">http://localhost:4008/Ansible-Tower-How-to-Backup-and-Restore/</guid>
+        
+        <category>Ansible Tower</category>
+        
+        <category>Backup</category>
+        
+        <category>Restore</category>
+        
+        <category>Ansible Automation</category>
+        
+        
+        <category>ansible</category>
+        
+        <category>automation</category>
+        
+      </item>
+    
+      <item>
+        <title>Ansible – Part 8 – Managing Facts</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/09/ansible-part-8-managing-facts.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ansible facts are nothing but some variables which are automatically discovered by the Ansible on managed hosts while running ansible adhoc commands or playbooks.&lt;/p&gt;
+
+&lt;p&gt;See Automation with Ansible full chapters.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/09/ansible-part-8-managing-facts.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Sep 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/Ansible-Part-8-Managing-Facts/</link>
+        <guid isPermaLink="true">http://localhost:4008/Ansible-Part-8-Managing-Facts/</guid>
+        
+        <category>Ansible Tower</category>
+        
+        <category>Backup</category>
+        
+        <category>Restore</category>
+        
+        <category>Ansible Automation</category>
+        
+        
+        <category>Ansible</category>
+        
+        <category>Automation</category>
+        
+      </item>
+    
+      <item>
+        <title>Ansible – Part 7 – Managing Variables</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/08/ansible-part-7-managing-variables.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use variables in ansible plays to store values like users to create, packages to install etc. By using variables, you can manage your plays with dynamic input values.&lt;/p&gt;
+
+&lt;p&gt;See Automation with Ansible full chapters.&lt;/p&gt;
+
+&lt;p&gt;Example Variable usages:&lt;/p&gt;
+
+&lt;p&gt;Users to create
+Packages to install
+Services to restart
+Files to more or create
+Refer : Ansible Documentation&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/08/ansible-part-7-managing-variables.html&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Aug 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/Ansible-Part-7-Managing-Variables/</link>
+        <guid isPermaLink="true">http://localhost:4008/Ansible-Part-7-Managing-Variables/</guid>
+        
+        <category>Ansible Tower</category>
+        
+        <category>Backup</category>
+        
+        <category>Restore</category>
+        
+        <category>Ansible Automation</category>
+        
+        
+        <category>Ansible</category>
+        
+        <category>Automation</category>
+        
+      </item>
+    
+      <item>
+        <title>Configure TLS Encrypted Tunnel For Remote Logs Using Syslog-ng</title>
+        <description>&lt;p&gt;You might be a Sysadmin, developer, DBA or whatever, logs are like treasure boxes for anyone working in IT. And the best practice to keep logs in a central location together with local copy. Most of the logging programs have the ability to send logs to a remote logging server (as well as receive logs from remote machines); eg rsyslog, syslog-ng etc.&lt;/p&gt;
+
+&lt;p&gt;But, still there is a concern for sending server/application/database logs sending over tcp as plain text; yes indeed. But no need to worry as most of the logging programs will have simple mechanisms to implement TLS Tunnels for sending and receiving logs. In below demo, we will implement TLS tunnel to send logs from one machine (using syslog-ng) and receive the logs on another logging server (syslog-ng).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.techbeatly.com/2019/08/configure-tls-encrypted-tunnel-for-remote-logs-using-syslog-ng.html/&quot;&gt;See Full Article&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Aug 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4008/Configure-TLS-Encrypted-Tunnel-For-Remote-Logs-Using-Syslog-ng/</link>
+        <guid isPermaLink="true">http://localhost:4008/Configure-TLS-Encrypted-Tunnel-For-Remote-Logs-Using-Syslog-ng/</guid>
+        
+        <category>Configure TLS Encrypted Tunnel</category>
+        
+        <category>syslog-ng</category>
+        
+        <category>syslog-ng tlstls</category>
+        
+        <category>logging</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
