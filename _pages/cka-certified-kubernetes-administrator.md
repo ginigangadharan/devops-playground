@@ -1,4 +1,15 @@
-# 1. Certified Kubernetes Administrator (CKA) 
+---
+layout: postnew
+title: Certified Kubernetes Administrator (CKA) 
+#author: gini
+categories: [ cloud ]
+#image: "assets/images/gini-redhat-cloudevent-2019-2.jpg"
+tags: [cloud, automation, containers, kubernetes]
+show-avatar: false
+permalink: /cka-certified-kubernetes-administrator
+featured: false
+hidden: false
+---
 
 ## 1.1. Disclaimer
 
