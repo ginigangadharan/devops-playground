@@ -43,3 +43,9 @@ This is a page where I keep all those list of tools on internet, which we use fo
 
 ## 1.5. Kubernetes
 - **[Kubernetes spec generator](https://install.portworx.com)**
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
