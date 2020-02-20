@@ -5,6 +5,19 @@
     - supports oVirt/RHEV version 3.
 - ovirt_vm - https://docs.ansible.com/ansible/latest/modules/ovirt_vm_module.html
     - need `ovirt-engine-sdk-python` >= 4.3.0
+```
+sudo apt install python-pip
+apt-get install python-lxml
+apt-cache depends python-pycurl
+# then install all dependancies
+sudo apt-get install libcurl4-gnutls-dev
+sudo apt install libcurl4-gnutls-dev librtmp-dev
+pip install ovirt-engine-sdk-python
+```
+Ref: https://github.com/oVirt/ovirt-engine-sdk/issues/18
+
+https://calgaryrhce.ca/blog/2018/10/23/using-ansible-to-manage-rhv-ovirt/
+
 
 ## rhevm
 ```
