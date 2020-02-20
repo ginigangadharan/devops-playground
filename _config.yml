@@ -5,13 +5,15 @@ description: "backpacker, foodie, techie"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 
-url: "https://www.iamgini.com/devops-playground"
-baseurl: "/devops-playground"
+#url: "https://www.iamgini.com/devops-playground"
+#baseurl: "/devops-playground"
 
 # If you are building a GitHub project page then use these settings:
 # url: "https://www.iamgini.com/site2/"
 # baseurl: "/site2"
 
+my_url: "https://www.iamgini.com/devops-playground"
+my_baseurl: "/devops-playground"
 my_base_site: "https://www.iamgini.com"
 
 google_analytics: 'UA-158250524-1'
