@@ -5,14 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="icon" href="{{ site.my_baseurl }}/assets/images/logo.png">
-
 <!-- <title>{{ page.title }} | {{site.name}}</title> -->
+
+<!-- REDIRECTION to iamgini.com -->
+
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
-<title>Redirecting to iamgini.com...{{ page.layout }}</title>
+<title>Redirecting to iamgini.com...{{ page.permalink }}</title>
 
 
+<link rel="canonical" href="https://www.iamgini.com/">
 
+<!-- END REDIRECTION -->
 
 {% seo %}
 
