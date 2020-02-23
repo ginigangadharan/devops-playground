@@ -74,3 +74,5 @@ adsense-data-ad-slot: "2394512673"  # ad-slot-iamgini-101
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+theme: jekyll-theme-cayman
