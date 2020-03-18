@@ -1,0 +1,74 @@
+---
+#author : gineesh
+#Version : 1.0
+# give NODE during playbook -> -e "NODE=mynodes"
+
+- name: Create local yum repo server 
+  hosts: "{{ NODE }}"  
+  become: true
+  vars_files:
+  #  - vars/answer_vars
+  #  - vars/new_vm_to_create.yml
+  vars:
+    repos:
+      - name: RHEL-DVD
+        repo_path_local: /repo/rhel7
+        repo_path_web: /var/www/html/rhel7
+        repo_file_name: rhel7-dvd
+      - name: CentOS-DVD
+        repo_path_local: /repo/centos7
+        repo_path_web: /var/www/html/centos7
+        repo_file_name: centos7-dvd
+  
+  #environment:
+  #      PYTHONPATH: "/opt/rh/rh-python36/root/lib/python3.6/site-packages"
+  tasks:
+    # mount the ISO ->  `mount -t iso9660 -o loop path/to/image.iso /mnt/iso` and
+    # make sure you have copied DVD content to local directory
+    - name: Add Local repository - DVD Content in {{ repo_path_local }}
+      yum_repository:
+        name: "{{ item.name }}"
+        description: "{{ item.name }}"
+        baseurl: "file://{{ item.repo_path_local }}"
+        enabled: yes
+        gpgcheck: no
+        file: "{{ item.repo_file_name }}"
+      with_items: "{{ repos }}"
+
+    - name: Install packages
+      yum:
+        name: ['httpd', 'createrepo','rsync', 'yum-utils']
+        state: present
+
+    - name: Update Repository
+      shell: createrepo --update {{ item.repo_path_local }}
+      with_items: "{{ repos }}"
+      
+    - name: Temp content for httpd
+      copy:
+        content: "<center><h1>This is a Lab Utility Server</h1></center>"
+        dest: /var/www/html/index.html
+        mode: 0644 
+    
+    - name: Create symlink to {{ repo_path_local }}
+      file: 
+        src: "{{ item.repo_path_local }}" 
+        dest: "{{ item.repo_path_web }}" #/var/www/html/repo 
+        state: link
+      with_items: "{{ repos }}"
+
+    - name: Open http traffic on firewall
+      firewalld:
+        service: "{{ item }}"
+        permanent: yes
+        immediate: yes
+        state: enabled
+      with_items:
+        - http
+        - https
+
+    - name: Start and Enable Apache
+      service:
+        name: httpd
+        state: started
+        enabled: yes 
